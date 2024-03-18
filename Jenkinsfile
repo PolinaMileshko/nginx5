@@ -8,7 +8,7 @@ pipeline {
                 }
             }
         }
-        stage('Docker build container nginx') { 
+        stage('Docker build container go-application') { 
             steps {
                 script {
                     sh """
